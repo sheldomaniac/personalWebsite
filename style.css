@@ -1,0 +1,95 @@
+
+
+.MainPageNav{
+    position:fixed;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: -10px;
+    padding : 10px;
+    height: 100px;
+    width: 100%;
+    text-decoration: none;
+    background-color: blanchedalmond;
+    
+}
+body{
+    background: linear-gradient(45deg, #CCFFFF, #FFCCCC);
+}
+section{
+    margin: 100px 0 0 0;
+}
+
+.MainSheldon:link{
+    position:fixed;
+    left : 10px;
+    font-size: 36px;
+}
+
+.MainAbout:link{
+    position:fixed;
+    right : 400px;
+}
+
+.MainPortfolio:link{
+    position:fixed;
+    right : 300px;
+}
+
+.MainContact:link{
+    position:fixed;
+    right : 200px;
+}
+
+.MainFeedback:link{
+    position:fixed;
+    right: 100px;
+}
+
+.MainSheldon:link, .MainAbout:link, .MainFeedback:link, .MainPortfolio:link, .MainContact:link{
+    
+    padding : 2px;
+    color: grey;
+    text-decoration: none;
+
+}
+
+.MainSheldon:hover, .MainAbout:hover, .MainFeedback:hover, .MainPortfolio:hover, .MainContact:hover{
+    padding : 2px;
+    color: blue;
+    text-decoration: underline;
+}
+
+.MainSheldon:visited, .MainAbout:visited, .MainFeedback:visited, .MainPortfolio:visited, .MainContact:visited{
+    padding : 2px;
+    color: black;
+}
+
+
+.navFeedback{
+    margin: 10px;
+    padding : 20px;
+    text-decoration: none;
+}
+
+.feedbackSheldon:link, .feedbackAbout:link, .feedbackFeedback:link, .feedbackPortfolio:link, .feedbackContact:link{
+    
+    padding : 2px;
+    color: grey;
+    text-decoration: none;
+
+}
+
+.feedbackSheldon:hover, .feedbackAbout:hover, .feedbackFeedback:hover, .feedbackPortfolio:hover, .feedbackContact:hover{
+    padding : 2px;
+    color: blue;
+    text-decoration: underline;
+}
+
+.feedbackSheldon:visited, .feedbackAbout:visited, .feedbackFeedback:visited, .feedbackPortfolio:visited, .feedbackContact:visited{
+    padding : 2px;
+    color: black;
+}
+
+div{
+    padding : 3px;
+}

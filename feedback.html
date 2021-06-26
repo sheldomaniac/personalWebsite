@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "style.css">
+    <title>Feedback</title>
+</head>
+<body>
+    <header>
+        <nav class = "navFeedback">
+            <a href = "mainpage.html" class ="feedbackSheldon">Sheldon Mendonca</a>
+            <a href = "#" class = "feedbackAbout">About</a>       
+            <a href = "#" class = "feedbackPortfolio">Porfolio</a>
+            <a href = "#" class = "feedbackContact">Contact</a>
+            <a href = "#" class = "feedbackFeedback">Feedback</a>
+        </nav>
+    </header>
+    <main>
+        <h2 class = "FeedbackWelcome">Please let me know about your feedback below.</h2>
+        <form action = "mailto:sheldonmendonca1012@gmail.com" method = "POST" enctype="text/plain">
+            <div class = "FeedbackUsername">
+                <label class = "FeedbackNameTxt" for = "FeedbackName">
+                    Please enter your name: 
+                    <input type = "text"  name = "FeedbackName" placeholder="Full Name" autofocus required>
+                </label>
+                
+                <br>
+            </div>
+            <div class = "FeedbackUserEmail">
+                <label class = "FeedbackEmailTxt" for = "FeedbackEmail">
+                     Please enter your email-id:
+                     <input type = "email"  name = "FeedbackEmail" placeholder="abcd@xyz.com" required>
+                </label>
+                
+                <br>
+            </div>
+
+            <div class = "FeedbackText">
+                <label for = "FeedbackText">Let me know of you feedback below:<br>
+                    <textarea name = "FeedbackText" rows="10" cols = 40 required></textarea> 
+                </label>
+            </div>
+
+            <div class = "FeedbackUserSubmit">
+                <button type = "submit"  name = "FeedbackUserSubmit">Click here to Submit</button>
+            </div>
+
+        </form>
+
+    </main>
+</body>
+</html>
